@@ -1,0 +1,166 @@
+.logo-heading {
+  font-size: 26px;
+  font-weight: 500;
+  font: normal normal medium 26px/35px Gotham Rounded;
+}
+
+.header.navbar {
+  height: 94px;
+}
+
+.header .navbar-nav .nav-link {
+  color: #ffffff;
+  font: normal normal 600 13px/20px Source Sans Pro;
+}
+.btnReqDemo {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0.8rem, 1rem;
+  background: #5cdb95 0% 0% no-repeat padding-box;
+  box-shadow: 2px 4px 8px #00000029;
+  border: 2px solid #5cdb95;
+  border-radius: 21px;
+  opacity: 1;
+  text-align: center;
+  color: #05386b;
+}
+
+/* .header.sticky {
+  background-color: #05386b !important;
+} */
+
+.header .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.header .navbar-toggler.collapsed .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+
+.header .navbar-toggler .navbar-toggler-icon {
+  background-image: url(./images/cross.svg);
+}
+
+.bg-white.navbar-light .navbar-nav .nav-link,
+.bg-white.navbar-light .navbar-nav .nav-link:hover,
+.bg-white.navbar-light .navbar-nav .nav-link:any-link {
+  color: #12356a;
+}
+
+.navbar.bg-white .logo-heading {
+  color: #12356a;
+}
+
+.bg-prussian-blue.navbar-light .navbar-nav .nav-link,
+.bg-prussian-blue.navbar-light .navbar-nav .nav-link:hover {
+  color: #ffffff !important;
+}
+
+.navbar.bg-prussian-blue .logo-heading {
+  color: #ffffff;
+}
+
+/* Header Sticky CSS*/
+
+.header.sticky.navbar {
+  background-color: #12356a !important;
+}
+
+.header.sticky.navbar .logo-heading {
+  font-size: 26px;
+  font-weight: 500;
+  font: normal normal medium 26px/35px Gotham Rounded;
+  color: #ffffff;
+}
+
+.header.sticky.navbar .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+/* .header.navbar-light .navbar-nav .nav-link:hover {
+  color: #ffffff;
+} */
+
+.bg-prussian-blue.navbar-light .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.header.navbar .navbar-collapse.collapse.show {
+  background-color: #12356a;
+}
+
+.bg-white.navbar-light .navbar-collapse.collapse.show .navbar-nav .nav-link,
+.bg-white.navbar-light
+  .navbar-collapse.collapse.show
+  .navbar-nav
+  .nav-link:hover {
+  color: #ffffff;
+}
+
+#responsive-navbar-nav .nav-link {
+  /* animation: fadeIn 10s 0 5s 1; */
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+/* 
+.fade-in-image {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+} */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* @media (max-width: 991px) {
+  nav.header.navbar.navbar-expand-lg.fixed-top {
+    background-color: #12356a !important;
+  }
+} */
